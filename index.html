@@ -2,10 +2,18 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Weather in Lima</title>
+        <title>Зональний прогноз погоди</title>
     </head>
     <body>
-        <h1 >Weather in <span id="Place"></span> </h1>    
+        <h1 >Погода довкола точки</h1>    
+    <form id="koord">
+        <label for="lat">Широта</label> <br>
+        <input type="text" id="lat" name="lat" value ="49.49"/> <br>
+        <label for="long">Довгота</label><br>
+        <input type="text" id="long" name="long" value ="24.00"/><br>
+          <button id="btnGetWeather"  class="nav_btn">Знайти</button>
+    </form>
+
         
         <table id="mainTable">
             <tr>
